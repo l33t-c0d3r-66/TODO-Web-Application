@@ -1,0 +1,37 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>TO-DO Web Application</display-name>
+  <servlet>
+  	<servlet-name>SaveNote</servlet-name>
+  	<display-name>SaveNote</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.SaveNote</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UpdateNote</servlet-name>
+  	<display-name>UpdateNote</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.UpdateNote</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DeleteNote</servlet-name>
+  	<display-name>DeleteNote</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.DeleteNote</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>SaveNote</servlet-name>
+  	<url-pattern>/SaveNote</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UpdateNote</servlet-name>
+  	<url-pattern>/UpdateNote</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DeleteNote</servlet-name>
+  	<url-pattern>/DeleteNote</url-pattern>
+  </servlet-mapping>
+</web-app>
