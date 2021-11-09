@@ -3,8 +3,8 @@
 <%@ page import="org.hibernate.Session"%>
 <%@ page import="org.hibernate.Query"%>
 <%@ page import="java.util.List"%>
-<%@ page import="com.util.FactoryProvider"%>
-<%@ page import="com.entities.Note"%>
+<%@page import="com.util.FactoryProvider"%>
+<%@page import="com.entities.Note"%>
 <!DOCTYPE html>
 <html>
 <head>
