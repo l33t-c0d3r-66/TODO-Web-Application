@@ -1,5 +1,5 @@
 # TODO-Web-Application
-<li> TODO Application is a Simple Web Application Where you can perform CRUD Operations.
+<li> TODO Application is a Web Application Where you can perform CRUD Operations.
 <li> This is a learning based Project created using JSP, Servlets, Hibernate and Bootstrap.
 <li> Maven is used as Building tool for this Project.
 
